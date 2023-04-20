@@ -24,15 +24,15 @@ def reset_timer():
 def start_timer():
     global reps
     if reps in [0, 2, 4, 6]:
-        mins_to_clock = 0.3
+        mins_to_clock = WORK_MIN
         reps += 1
         title_label.config(text="Work", fg=GREEN)
     elif reps in [1, 3, 5, 7]:
-        mins_to_clock = 0.1
+        mins_to_clock = SHORT_BREAK_MIN
         reps += 1
         title_label.config(text="Break", fg=PINK)
     else:
-        mins_to_clock = 0.2
+        mins_to_clock = LONG_BREAK_MIN
         reps = 0
         title_label.config(text="Pause", fg=RED)
     count_down(mins_to_clock * 60)
