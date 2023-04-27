@@ -8,7 +8,7 @@ Before you can use the Pomodoro GUI App, you will need to have Python 3.6 or hig
 ### First way
 To install the app, simply clone the repository to your local machine:
 
-`git clone https://github.com/harisbikovic/pomodoro_gui_app.git`
+`git clone https://github.com/harisbikovic/pomodoro-gui-app.git`
 
 Navigate to your project directory. To run the app, simply run the **_main.py_** file:
 
