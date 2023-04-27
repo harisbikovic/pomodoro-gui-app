@@ -21,9 +21,14 @@ If the previous is not your preferred way then do this:
 3. Navigate to the extracted ZIP file on your computer
 4. Double-click the **_main.py_** file
 
+
+## Using the App
 Both of the previous two ways will launch the app window, which displays a timer and controls for starting and stopping the Pomodoro intervals. The default interval length is 25 minutes, with a short break of 5 minutes in between. After 4 Pomodoro intervals, a longer break of 15 minutes is taken.
 
 ![image](https://user-images.githubusercontent.com/108518278/233389549-aa961063-1f4a-4b36-8efc-7c9b43222036.png)
+
+
+![image](https://user-images.githubusercontent.com/108518278/234800479-3d2a7086-f2d8-42ec-bf09-6070347edf23.png)
 
 
 ## Customize the App
